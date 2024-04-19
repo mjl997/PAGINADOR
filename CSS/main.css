@@ -1,10 +1,12 @@
 #teclado{
     width: 300px;
-    height: 295px;
+    height: 415px;
     margin: 0 auto;
     text-align: center;
     border-radius: 5px;
     border: 1px solid dimgray;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .tecla{
@@ -15,8 +17,18 @@
     border: 0;
     border-radius: 10px;
     font-size: 30px;
+    position: relative;
+    top: 15px;
 }
 
 .tecla:hover{
     background-color: plum;
+}
+
+#pantalla{
+    position: relative;
+    top: 5px;
+    width: 280px;
+    height: 90px;
+    margin: 0 auto;
 }
